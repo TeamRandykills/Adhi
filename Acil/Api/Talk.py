@@ -14,7 +14,7 @@ from curve.ttypes import *
 class Talk:
   client = None
 
-  auth_query_path = "/api/v4/TalkService.do";
+  auth_query_path = "/api/v5/TalkService.do";
   http_query_path = "/S4";
   wait_for_mobile_path = "/Q";
   host = "gd2.line.naver.jp";
