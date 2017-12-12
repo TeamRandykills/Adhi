@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import requests,shutil,random,string,json,tempfile,goslate,pyowm,urllib3,os,urllib,subprocess,threading,sys,codecs
+import requests,shutil,random,string,json,tempfile,goslate,pyowm,urllib3,os,urllib,urllib2,subprocess,threading,sys,codecs
 import unicodedata
 from bs4 import BeautifulSoup
 from random import randint
@@ -476,7 +476,8 @@ class LINE:
       callback = def_callback
 
       prof = self.getProfile()
-
+     
+      print("TEAM RANDY KILLS")            
       print("Suscess Masuk")
       print("Mid 		: " + prof.mid)
       print("Name 		: " + prof.displayName)
