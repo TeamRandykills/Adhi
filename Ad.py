@@ -54,20 +54,20 @@ ki.login(token="EnA1jib5ECXxIGHUuBOc.hN6QvS3UksU4kbHSuhgIVa.SneVjsMU7dRMxEoytB5+
 ki.loginResult()
 
 kk = Acil.LINE()
-kk.login(token="EnsKKfiWDmzHGrqNKGod.escIT9YogRXrqxPKWvinxq.yAymj5N16QE4+NsbyVbyBQNBPADzPXVNHBPf4VPC3+c=")
+kk.login(token="
 kk.loginResult()
 
 kc = Acil.LINE()
-kc.login(token="EnEpIrNVf2awq6JeQwQ7.rBY3JsgaAqDiXr2VDbxQrW.TAt3gQzqUkrxfFukmIa2+h5o+hqGtXaB+Ym4+D6qLDA=")
+kc.login(token="
 kc.loginResult()
 
 print "Acil"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage= """\n
-▂▃▅▇█▓▒░۩H̸͟͞e̸͟͞l̸͟͞p̸͟͞ ̸͟͞۩░▒▓█▇▅▃▂
+▂▃▅▇█▓▒░✴‮✴(iɥpɐƃuɐqɐq)
 ═╬════════►∆∆
-   E̸͟͞d̸͟͞i̸͟͞t̸͟͞e̸͟͞d̸͟͞.       
+   ✴‮✴(iɥpɐƃuɐqɐq)     
 ═╬════════► 
 🔘 My name    :  |╬|
 🔘 Bot2 rename:  |╬|
@@ -147,7 +147,7 @@ helpMessage= """\n
 |╬| Bot6   @bye
 |╬| Team   @bye
 |╬| Center @bye
-|╬| Bye allgroups[own]
+|╬| Bye allgc[own]
 ═╬════════►
    🔫A̸͟͞U̸͟͞T̸͟͞O̸͟͞ S̸͟͞E̸͟͞T̸͟͞ B̸͟͞O̸͟͞T̸͟͞🔫
 ═╬════════►
@@ -283,8 +283,8 @@ helpMessage= """\n
 🔘Turn off bots🔘
 ●▬▬▬▬๑۩Special Thanks۩๑▬▬▬▬▬●
 P̸͟͞O̸͟͞W̸͟͞E̸͟͞R̸͟͞ B̸͟͞Y̸͟͞ T̸͟͞C̸͟͞R̸͟͞
-Edited̸͟͞ by A̸͟͞C̸͟͞I̸͟͞L̸͟͞A̸͟͞R̸͟͞D̸͟͞
-   ●▬▬▬▬๑۩FuckMyBot۩๑▬▬▬▬▬●
+Edite ✴‮✴(iɥpɐƃuɐqɐq)
+   ●▬▬▬▬๑۩TEAM SILUMAN۩๑▬▬▬▬▬●
 
 """
 
@@ -364,8 +364,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-admin = ["u028b4883508046ca1c5ff1be3662550a"]
-owner = ["u028b4883508046ca1c5ff1be3662550a"]
+admin = ["u350cc7408cc6cc82e056ee046131f925"]
+owner = ["u350cc7408cc6cc82e056ee046131f925"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -375,7 +375,7 @@ wait = {
     'autoAdd':False,
     'message':"Thanks for add Me",
     "lang":"JP",
-    "comment":"AutoLike by Acil http://line.me/ti/p/eIlSELYxLR",
+    "comment":"AutoLike by ✴‮✴(iɥpɐƃuɐqɐq) http://line.me/ti/p/boy29putra",
     "welmsg":"welcome to group",
     "commentOn":True,
     "commentBlack":{},
@@ -1890,8 +1890,8 @@ def bot(op):
                 kt.sendMessage(msg)
                 
 #=======================================================
-                
-                
+            elif msg.text in ["You"]:    
+              if msg.from_ in admin:
             elif msg.text in ["Me"]:
 	      if msg.from_ in admin:
                 msg.contentType = 13
@@ -3190,7 +3190,7 @@ def bot(op):
                         cl.sendText(msg.to,"Already。")
 #==========================================================
 
-            elif msg.text in ["Settings"]:
+            elif msg.text in ["Set"]:
               if msg.from_ in admin:
             	print "Setting pick up..."
                 md="list of bot settings\n\n"
@@ -3449,11 +3449,11 @@ def bot(op):
                 kt.sendText(msg.to, text)
             elif msg.text in ["Respon"]:
                 print "EXCUTED -- ABSEN BOT"
-                cl.sendText(msg.to,"Saya")
-                ki.sendText(msg.to,"Hadir")
-                kk.sendText(msg.to,"Sayang")
-                kc.sendText(msg.to,"Micuuuuu")
-                ks.sendText(msg.to,"kalian kang colmek")
+                cl.sendText(msg.to,"✴‮✴(iɥpɐƃuɐqɐq)")
+                ki.sendText(msg.to,"✴‮✴(iɥpɐƃuɐqɐq)")
+                kk.sendText(msg.to,"✴‮✴(iɥpɐƃuɐqɐq)")
+                kc.sendText(msg.to,"✴‮✴(iɥpɐƃuɐqɐq)")
+                ks.sendText(msg.to,"✴‮✴(iɥpɐƃuɐqɐq) ")
 	   	kt.sendText(msg.to,"😗😗😗😗😗😗")
 #========================================
             elif msg.text in ["Comment bl "]:
@@ -3679,11 +3679,12 @@ def bot(op):
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 print "[Command]Speed palsu executed"
-           
-    
-            elif msg.text in ["Speed","speed"]:
+            elif msg.text in ["Sp"]:
+              if msg.from_ in admin:
+	elif msg.text in ["Speed","speed"]:
 	      if msg.from_ in admin:
-                start = time.time()
+                print("Speed")
+		start = time.time()
                 cl.sendText(msg.to, "loading...................")
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))
@@ -4271,7 +4272,7 @@ def bot(op):
 						cl.sendText(manusia,(bctxt +"\n\n\nbroadcasted by:" + cl.getContact(msg.from_).displayName))
 										 
 #========================================
-            elif msg.text in ["Team @join"]:
+            elif msg.text in ["All join","Masuk"]:
               if msg.from_ in admin:
 					G = cl.getGroup(msg.to)
 					info = cl.getGroup(msg.to)
@@ -4297,7 +4298,7 @@ def bot(op):
 					cl.updateGroup(G)
 #=====================================================================================
           
-            elif msg.text in ["Bye allgroups"]:
+            elif msg.text in ["Bye allgc"]:
               if msg.from_ in admin:
 				gid = cl.getGroupIdsJoined()
 				for i in gid:
@@ -4311,7 +4312,7 @@ def bot(op):
 					ki.sendText(msg.to,"bye-bye")
 				else:
 					ki.sendText(msg.to,"He declined all invitations")
-            elif msg.text in ["Team @bye"]:
+            elif msg.text in ["Bye","pulang"]:
               if msg.from_ in admin:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
@@ -4587,7 +4588,7 @@ def bot(op):
                     #for _mid in gMembMids:
                         #random.choice(KAC).cancelGroupInvitation(msg.to,[_mid])
                     #cl.sendText(msg.to,"Clear boss!!!")
-            elif msg.text.lower() in ["mention all"]:
+            elif msg.text.lower() in ["mention all","Tag"]:
               if msg.from_ in admin:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
@@ -4695,7 +4696,7 @@ def bot(op):
                         cl.sendMessage(msg)
 
         if op.type == 32:
-			OWN = "u028b4883508046ca1c5ff1be3662550a"
+			OWN = "u350cc7408cc6cc82e056ee046131f925"
 			if op.param2 in Bots and admin:
 				pass
 			else:
