@@ -12,7 +12,7 @@ class Poll:
 
   client = None
 
-  auth_query_path = "/api/v4/TalkService.do";
+  auth_query_path = "/api/v5/TalkService.do";
   http_query_path = "/S4";
   polling_path = "/P4";
   host = "gd2.line.naver.jp";
